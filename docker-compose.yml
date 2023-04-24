@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  browser-spoofing:
+    container_name: browser-spoofing
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    # networks:
+    #   nw0:
+
+# networks:
+#   nw0:
+#     external: true
